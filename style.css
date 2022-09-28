@@ -1,0 +1,279 @@
+body{
+    max-width: 1920px;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", "Sans-serif";
+    font-size: 18px;
+    line-height: 22px;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    max-width: 950px;
+    margin: 0 auto;
+}
+.nav{
+    border-bottom: 2px solid #828282;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    flex-wrap:wrap;
+    padding:0px;
+}
+.nav a{
+    text-decoration: none;
+    color: #828282;
+    
+}
+.nav a:not(last-child){
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.nav a:hover{
+    color: rgb(149, 245, 245);
+}
+.name{
+    display: inline-block;
+    font-size: 47px;
+    font-weight: 700;
+    line-height: 58px;
+    margin: 0;
+}
+.some-information{
+    text-align: center;
+    padding-top:35px;
+}
+.profile-photo{
+    width:100%;
+    height: 450px;
+    background:URL(image/D5AC9EFC-41C6-4D03-AD77-AB7AF7EB8CB5.jpeg) center no-repeat;
+    background-size: cover;
+    margin-top:40px;
+    margin-bottom: 80px;
+}
+.first-block{
+    margin: 0;
+    padding: 0;
+    background-color: #F6F6F6;
+}
+h2{
+    font-size: 34px;
+    line-height: 42px;
+    padding-top: 110px;
+    text-align: center;
+}
+.about-me{
+    max-width: 950px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.p-about-me{
+    padding-bottom: 30px;
+}
+.about-me p:last-child{
+    padding-bottom:110px;
+}
+.second-block{
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+}
+.skills{
+    max-width: 950px;
+    margin: 0 auto;
+
+}
+.skills p{
+    text-align: center;
+}
+.skill-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.skill-box img{
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+}
+.programs{
+    margin-bottom: 50px;
+}
+.vs-code-progress{
+    color: red;
+}
+.third-block{
+    margin: 0;
+    padding: 0;
+    background-color: #F6F6F6;
+}
+.my-site{
+    padding: 0;
+    margin: 0 auto;
+    max-width: 950px;
+}
+.first-site{
+    background: url(image/Сайт-1.png) center no-repeat;
+    background-size: cover;
+    height: 450px;
+}
+.heart{
+    background-color: #F6F6F6;
+    border: none;
+    width: 50px;
+    height: 50px;
+    background-image: url(image/like.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    padding: 0;
+}
+.likes-number{
+    margin-left :45px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #5083a6;
+
+}
+.added{
+    background-image: url(image/like-added.png);
+}
+  
+.second-site{
+    background: url(image/Сайт-2.png) center no-repeat;
+    background-size: cover;
+    height: 450px;
+}
+.third-site{
+    background: url(image/Сайт-3.png) center no-repeat;
+    background-size: cover;
+    height: 450px;
+}
+.my-site p{
+    text-align: center;
+}
+.my-site p:last-child{
+    padding-bottom: 60px;
+}
+.first-site,
+.second-site,
+.third-site{
+    border: 5px solid #415792;
+    margin-bottom: 40px;
+    margin-top: 80px;
+}
+.first-site:hover,
+.second-site:hover,
+.third-site:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.first-site:not(hover),
+.second-site:not(hover),
+.third-site:not(hover){
+    transition: 2s;
+}
+.fourth-block{
+    margin:0;
+    padding: 0;
+    background-color: #FFFFFF;
+}
+.contact{
+    margin: 0 auto;
+    padding: 0;
+    max-width: 950px;
+}
+.contact p{
+    text-align: center;
+}
+.contact ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+    padding-top: 30px;
+}
+.first-sprite a{
+    display: block;
+    background: url(image/Sprite.jpg) no-repeat;
+    background-size: 785%;
+    background-position: -240px -439px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.second-sprite a{
+    display: block;
+    background: url(image/Sprite.jpg) no-repeat;
+    background-size: 585%;
+    background-position: -310px -170px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.third-sprite a{
+    display: block;
+    background: url(image/Sprite.jpg) no-repeat;
+    background-size: 585%;
+    background-position: -452px -170px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.fourth-sprite a{
+    display: block;
+    background: url(image/Sprite.jpg) no-repeat;
+    background-size: 785%;
+    background-position: -432px -439px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+} 
+.first-sprite a:hover,
+.second-sprite a:hover,
+.third-sprite a:hover,
+.fourth-sprite a:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.first-sprite a:not(hover),
+.second-sprite a:not(hover),
+.third-sprite a:not(hover),
+.fourth-sprite a:not(hover){
+    transition: 0.5s;
+}
+.contact li{
+    padding-right: 20px;
+    padding-top: 20px;
+}
+.up-button{
+    color: #5083a6;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    font-size: 16px;
+    border: 5px solid #5083a6;
+    position: fixed;
+    bottom: 100px;
+    right: 50px;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+}
+.up-button:hover{
+    border: 5px solid #415792;
+    color: #415792;
+}
+.hidden{
+    display: none;
+}
+.shown{
+    display: inline-block;
+}
